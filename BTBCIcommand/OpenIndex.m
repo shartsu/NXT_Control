@@ -8,14 +8,6 @@ if verLessThan('RWTHMindstormsNXT', '3.00');
         ,'and follow the installation instructions!'));
 end%if
 
-%% Defaults
-COM_CloseNXT all
-h = COM_OpenNXT();
-COM_SetDefaultNXT(h);
-
-%% Open Sound
-NXT_PlayTone(440, 500);
-
 %% Open Setup
 mA = NXTMotor('A')
 mA.Power = -25;
