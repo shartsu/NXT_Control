@@ -13,4 +13,3 @@ mA = NXTMotor('A')
 mA.Power = 25;
 mA.TachoLimit = 70;
 mA.SendToNXT();
-
