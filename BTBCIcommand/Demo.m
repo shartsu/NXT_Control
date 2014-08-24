@@ -1,4 +1,4 @@
-mssg = 2;
+mssg = 6;
 
 switch mssg
 	case 1
