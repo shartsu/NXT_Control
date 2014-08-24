@@ -1,0 +1,3 @@
+CloseThumb;
+CloseIndex;
+CloseLittle;
