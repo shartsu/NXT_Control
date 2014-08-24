@@ -17,18 +17,9 @@ COM_SetDefaultNXT(h);
 NXT_PlayTone(440, 500);
 
 %% Open Setup
-mA = NXTMotor('A')
-mA.Power = -25;
-mA.TachoLimit = 75;
-mA.SendToNXT();
-
 mB = NXTMotor('B')
 mB.Power = -50;
 mB.TachoLimit = 105;
 mB.SendToNXT();
 
-mC = NXTMotor('C')
-mC.Power = -25;
-mC.TachoLimit = 75;
-mC.SendToNXT();
 
