@@ -9,8 +9,8 @@ if verLessThan('RWTHMindstormsNXT', '3.00');
 end%if
 
 %% Open Setup
+mC = NXTMotor('C')
 if(mC.ReadFromNXT().Position < 35)
-	mC = NXTMotor('C')
 	mC.Power = 25;
 	mC.TachoLimit = 70;
 	mC.SendToNXT();
