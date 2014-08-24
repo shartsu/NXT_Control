@@ -6,21 +6,49 @@ disp('result is 1')
 
 ShowDegree;
 
-%%CloseThumb;
+CloseThumb;
 OpenIndex;
 OpenLittle;
 disp('result is 2')
 
 ShowDegree;
 
-%%CloseThumb;
+CloseThumb;
 CloseIndex;
-%%OpenLittle;
+CloseLittle;
+disp('result is 1')
+
+ShowDegree;
+
+CloseThumb;
+OpenIndex;
+OpenLittle;
+disp('result is 2')
+
+ShowDegree;
+
+CloseThumb;
+CloseIndex;
+CloseLittle;
+disp('result is 1')
+
+ShowDegree;
+
+CloseThumb;
+OpenIndex;
+OpenLittle;
+disp('result is 2')
+
+ShowDegree;
+
+CloseThumb;
+CloseIndex;
+OpenLittle;
 disp('result is 3')
 
 ShowDegree;
 
-%%CloseThumb;
+CloseThumb;
 OpenIndex;
 CloseLittle;
 disp('result is 4')
@@ -29,12 +57,12 @@ ShowDegree;
 
 OpenThumb;
 CloseIndex;
-%%CloseLittle;
+CloseLittle;
 disp('result is 5')
 
 ShowDegree;
 
-%%OpenThumb;
+OpenThumb;
 OpenIndex;
 OpenLittle;
 disp('result is 6')
