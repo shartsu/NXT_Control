@@ -1,6 +1,5 @@
 function val = switcher(mssg)
 
-
 	switch mssg
 		case 1
 			CloseThumb;

@@ -1,9 +1,10 @@
-i = 0
-r = 0
-r = randi([1,6]);
+for i = 1:10
+	r = randi([1,6]);
 
-%%while i > 100
-%%	r = randi([1,6]);
-	disp(r);
-%%	i = i + 1;
-%%end
+	switcher(r);
+
+	R{1, i} = r
+	i = i + 1;
+end
+
+disp(R)

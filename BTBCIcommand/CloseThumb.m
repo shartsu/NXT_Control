@@ -17,6 +17,6 @@ if(mB.ReadFromNXT().Position < 50)
 	mB.SendToNXT();
 %%elseif(mB.ReadFromNXT().Position < 95)
 %%	mB.Power = 50;
-%%	mB.TachoLimit = 10;
+%%	mB.TachoLimit = 0;
 %%	mB.SendToNXT();
 end
