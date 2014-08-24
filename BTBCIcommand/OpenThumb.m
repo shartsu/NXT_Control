@@ -13,5 +13,3 @@ mB = NXTMotor('B')
 mB.Power = -50;
 mB.TachoLimit = 105;
 mB.SendToNXT();
-
-

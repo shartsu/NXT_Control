@@ -4,35 +4,35 @@ CloseIndex;
 CloseLittle;
 disp('result is 1')
 
-pause(1);
+ShowDegree;
 
 %%CloseThumb;
 OpenIndex;
 OpenLittle;
 disp('result is 2')
 
-pause(1);
-
-%%CloseThumb;
-%%OpenIndex;
-CloseLittle;
-disp('result is 3')
-
-pause(1);
+ShowDegree;
 
 %%CloseThumb;
 CloseIndex;
-OpenLittle;
+%%OpenLittle;
+disp('result is 3')
+
+ShowDegree;
+
+%%CloseThumb;
+OpenIndex;
+CloseLittle;
 disp('result is 4')
 
-pause(1);
+ShowDegree;
 
 OpenThumb;
-%%CloseIndex;
-CloseLittle;
+CloseIndex;
+%%CloseLittle;
 disp('result is 5')
 
-pause(1);
+ShowDegree;
 
 %%OpenThumb;
 OpenIndex;

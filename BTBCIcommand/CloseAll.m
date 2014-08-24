@@ -1,3 +1,5 @@
 CloseThumb;
 CloseIndex;
 CloseLittle;
+
+ShowDegree;
