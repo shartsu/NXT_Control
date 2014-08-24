@@ -8,21 +8,27 @@ if verLessThan('RWTHMindstormsNXT', '3.00');
         ,'and follow the installation instructions!'));
 end%if
 
-
-
-%% Clear and close
+%% Defaults
 COM_CloseNXT all
-clear all
-close all
-
-%% Open connetion
 h = COM_OpenNXT();
 COM_SetDefaultNXT(h);
 
-%% Open Setup
-NXT_PlayTone(440, 500);
-pause(0.5);
+%% Open Sound
 NXT_PlayTone(440, 500);
 
-%% Say Something
-NXT_PlaySoundFile('Goodmorning', 0);
+%% Open Setup
+mA = NXTMotor('A')
+mA.Power = -5;
+mA.TachoLimit = 75;
+mA.SendToNXT();
+
+mB = NXTMotor('B')
+mB.Power = -5;
+mB.TachoLimit = 75;
+mB.SendToNXT();
+
+mC = NXTMotor('C')
+mC.Power = -5;
+mC.TachoLimit = 75;
+mC.SendToNXT();
+
