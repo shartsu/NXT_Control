@@ -13,3 +13,8 @@ mA = NXTMotor('A')
 mA.Power = 25;
 mA.TachoLimit = 70;
 mA.SendToNXT();
+
+% now retrieve motor info
+data = mA.ReadFromNXT();
+% show it to the user:
+disp(sprintf('Motor A is currently at position %d', data.Position));
