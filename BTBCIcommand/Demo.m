@@ -15,34 +15,6 @@ ShowDegree;
 
 CloseThumb;
 CloseIndex;
-CloseLittle;
-disp('result is 1')
-
-ShowDegree;
-
-CloseThumb;
-OpenIndex;
-OpenLittle;
-disp('result is 2')
-
-ShowDegree;
-
-CloseThumb;
-CloseIndex;
-CloseLittle;
-disp('result is 1')
-
-ShowDegree;
-
-CloseThumb;
-OpenIndex;
-OpenLittle;
-disp('result is 2')
-
-ShowDegree;
-
-CloseThumb;
-CloseIndex;
 OpenLittle;
 disp('result is 3')
 
