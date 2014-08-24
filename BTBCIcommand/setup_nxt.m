@@ -8,6 +8,7 @@ if verLessThan('RWTHMindstormsNXT', '3.00');
         ,'and follow the installation instructions!'));
 end%if
 
+
 %% Clear and close
 COM_CloseNXT all
 clear all
