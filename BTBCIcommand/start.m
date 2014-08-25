@@ -1,8 +1,7 @@
 mssg=48;
-disp(mssg)
 
 while char(mssg)-48 < 6
-    mssg = judp('receive', 3333, 1);
+    mssg = judp('receive', 3334, 1);
     char(mssg)
     switch char(mssg)
       case '1'
@@ -13,6 +12,10 @@ while char(mssg)-48 < 6
         disp('3');
       case '4'
         disp('4');
+      case '5'
+        disp('5');
+      case '6'
+        disp('6');
         otherwise
     end
 mssg=48;
