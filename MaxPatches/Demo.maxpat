@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 672.0 ],
+		"rect" : [ 8.0, 50.0, 1280.0, 672.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 658.0, 582.616699, 280.0, 20.0 ],
-					"text" : "mxj net.udp.send @address 127.0.0.1 @port 3334"
+					"text" : "mxj net.udp.send @address 127.0.0.1 @port 3336"
 				}
 
 			}

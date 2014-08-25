@@ -1,21 +1,41 @@
 mssg=48;
 
 while char(mssg)-48 < 6
-    mssg = judp('receive', 3334, 1);
+    mssg = judp('receive', 3336, 1);
     char(mssg)
     switch char(mssg)
+
+    %%these commands are same as 'Switcher.m'
       case '1'
-        disp('1');
+        CloseThumb;
+        CloseIndex;
+        CloseLittle;
+        disp('result is 1')
       case '2'
-        disp('2');
+        CloseThumb;
+        OpenIndex;
+        OpenLittle;
+        disp('result is 2')
       case '3'
-        disp('3');
+        CloseThumb;
+        CloseIndex;
+        OpenLittle;
+        disp('result is 3')
       case '4'
-        disp('4');
+        CloseThumb;
+        OpenIndex;
+        CloseLittle;
+        disp('result is 4')
       case '5'
-        disp('5');
+        OpenThumb;
+        CloseIndex;
+        CloseLittle;
+        disp('result is 5')
       case '6'
-        disp('6');
+        OpenThumb;
+        OpenIndex;
+        OpenLittle;
+        disp('result is 6')
         otherwise
     end
 mssg=48;
