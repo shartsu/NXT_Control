@@ -3,7 +3,7 @@ mssg=48;
 while char(mssg)-48 < 6
     mssg = judp('receive', 3337, 1);
     char(mssg)
-    
+
     switch char(mssg)
     %%these commands are same as 'Switcher.m'
       case '1'
