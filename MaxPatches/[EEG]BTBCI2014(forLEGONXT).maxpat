@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 340.0, 69.0, 833.0, 716.0 ],
+		"rect" : [ 245.0, 100.0, 896.0, 576.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -202,7 +202,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 856.541626, 453.500183, 109.0, 78.0 ],
-					"text" : "6"
+					"text" : "4"
 				}
 
 			}
@@ -326,8 +326,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 886.312988, 606.015991, 280.0, 20.0 ],
-					"text" : "mxj net.udp.send @address 127.0.0.1 @port 3337"
+					"patching_rect" : [ 889.084351, 610.5, 280.0, 20.0 ],
+					"text" : "mxj net.udp.send @address 127.0.0.1 @port 3342"
 				}
 
 			}
@@ -808,7 +808,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.5, 244.876923, 109.0, 78.0 ],
-					"text" : "2"
+					"text" : "5"
 				}
 
 			}

@@ -1,7 +1,7 @@
 mssg=48;
 
 while char(mssg)-48 < 6
-    mssg = judp('receive', 3338, 1);
+    mssg = judp('receive', 3342, 1);
     char(mssg)
 
     switch char(mssg)
