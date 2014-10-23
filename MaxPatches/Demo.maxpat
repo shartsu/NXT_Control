@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 201.0, 50.0, 1048.0, 656.0 ],
+		"rect" : [ -1905.0, 412.0, 1048.0, 656.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 658.0, 582.616699, 280.0, 20.0 ],
-					"text" : "mxj net.udp.send @address 127.0.0.1 @port 3336"
+					"text" : "mxj net.udp.send @address 127.0.0.1 @port 3333"
 				}
 
 			}
@@ -196,8 +196,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x64"
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 43.0, 1366.0, 639.0 ],
@@ -1526,7 +1526,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 646.0, 134.613098, 118.0, 48.0 ],
+					"patching_rect" : [ 646.0, 134.613098, 118.0, 47.0 ],
 					"text" : "Please press this number. You can cheak stimulus"
 				}
 
@@ -2115,7 +2115,7 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 263.928571, 168.438461, 274.501587, 168.438461 ],
+					"midpoints" : [ 263.928558, 168.438461, 274.501587, 168.438461 ],
 					"source" : [ "obj-67", 5 ]
 				}
 
@@ -2125,7 +2125,7 @@
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 247.642857, 168.438461, 244.0, 168.438461 ],
+					"midpoints" : [ 247.642853, 168.438461, 244.0, 168.438461 ],
 					"source" : [ "obj-67", 4 ]
 				}
 
@@ -2135,7 +2135,7 @@
 					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 231.357143, 168.438461, 216.478638, 168.438461 ],
+					"midpoints" : [ 231.357147, 168.438461, 216.478638, 168.438461 ],
 					"source" : [ "obj-67", 3 ]
 				}
 
@@ -2145,7 +2145,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 215.071429, 168.438461, 189.0, 168.438461 ],
+					"midpoints" : [ 215.071426, 168.438461, 189.0, 168.438461 ],
 					"source" : [ "obj-67", 2 ]
 				}
 
@@ -2155,7 +2155,7 @@
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 198.785714, 168.438461, 161.728638, 168.438461 ],
+					"midpoints" : [ 198.785721, 168.438461, 161.728638, 168.438461 ],
 					"source" : [ "obj-67", 1 ]
 				}
 
