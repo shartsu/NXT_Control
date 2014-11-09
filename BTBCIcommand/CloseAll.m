@@ -1,5 +1,0 @@
-CloseThumb;
-CloseIndex;
-CloseLittle;
-
-ShowDegree;

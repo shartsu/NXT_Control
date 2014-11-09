@@ -1,5 +1,0 @@
-OpenThumb;
-OpenIndex;
-OpenLittle;
-
-ShowDegree;
