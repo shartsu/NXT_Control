@@ -41,6 +41,14 @@
 - Put ```SetupNxt``` command for launching the RWTH software
 - Put  ```start``` command for controlling the robot from MATLAB
 
+## Usage examples
+
+**Tactile-body BCI (tbBCI) control of a robot hand (Youtube)**
+
+* This robot arm which constructed in LEGO NXT is optimized for Brain-Computer Interface.
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hMEMDCzIk30/0.jpg)](http://www.youtube.com/watch?v=hMEMDCzIk30)
+
 ## License
 - GNU GPL version 3.0
 
