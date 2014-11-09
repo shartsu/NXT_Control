@@ -1,7 +1,7 @@
 # NXT_Control
 
 - (En) Control the [LEGO NXT Robot](http://education.lego.com/ja-jp/lego-education-product-database/mindstorms/9797-lego-mindstorms-education-base-set) freely by using a [MATLAB](http://www.mathworks.co.jp/products/matlab/?refresh=true) and a [Max6](http://www.mi7.co.jp/products/cycling74/) software.
-- (Ja) [LEGO NXT Robot](http://education.lego.com/ja-jp/lego-education-product-database/mindstorms/9797-lego-mindstorms-education-base-set)  を [MATLAB](http://www.mathworks.co.jp/products/matlab/?refresh=true) と [Max6](http://www.mi7.co.jp/products/cycling74/) の2ソフトを利用して自由にコントロールする。
+- (Ja) [LEGO NXT ロボット](http://education.lego.com/ja-jp/lego-education-product-database/mindstorms/9797-lego-mindstorms-education-base-set)  を [MATLAB](http://www.mathworks.co.jp/products/matlab/?refresh=true) と [Max6](http://www.mi7.co.jp/products/cycling74/) の2ソフトを利用して自由にコントロールする。
 
 ## Features
 (En)
